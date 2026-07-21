@@ -3,11 +3,11 @@
 import os
 
 
-MODEL_DIR = os.environ.get("MODEL_DIR", r"C:\Users\pushp\Desktop\model")
+MODEL_DIR = os.environ.get("MODEL_DIR", r"")#add the path to the folder containing the model files here example: r"C:\Users\____\Desktop\llm_router\models"
 
 LLAMA_SERVER_EXE = os.environ.get(
     "LLAMA_SERVER_EXE",
-    r"C:\Users\pushp\Desktop\model\llama-b9606-bin-win-cpu-x64\llama-server.exe",
+    r"",#Add the path to llama-server.exe here example: r"C:\Users\____\Desktop\llm_router\llama-b9606\llama-server.exe"
 )
 
 
