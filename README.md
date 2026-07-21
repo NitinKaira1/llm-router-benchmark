@@ -119,7 +119,6 @@ placeholders showing the shape of the output.)*
 | Avg quality score | X.XX / 5 | X.XX / 5 |
 | Classifier accuracy | — | XX% |
 
-![dashboard screenshot](docs/dashboard_screenshot.png)
 
 ## Project structure
 
