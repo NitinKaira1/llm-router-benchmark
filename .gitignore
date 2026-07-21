@@ -1,0 +1,23 @@
+# Model files -- these are multi-GB and don't belong in git.
+# GitHub hard-rejects files over 100MB anyway.
+*.gguf
+
+# Benchmark output -- regenerate locally with `python benchmark.py`.
+# Keep this out of git so your repo doesn't carry stale/personal run data.
+results/*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Env / secrets (none needed for this project, but harmless to ignore)
+.env
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+
